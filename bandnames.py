@@ -5,7 +5,7 @@ import random
 titles = ["gigantic", "sour", "steamy", "gross", "stupid", 
 	      "ironic", "greasy", "tangy", "smelly", "small",
 	      "Inventive", "Spherical", "spiritual", "green",
-	      "Blue", "pot bellies", "pickled", prickly"]
+	      "Blue", "pot bellies", "pickled", "prickly"]
 	      
 adjs = ["tiny", "fat", "shiny", "electric", "fluffy", "bright", 
         "corrupt", "agressive", "alarming", "amazing", "magical",
@@ -15,7 +15,7 @@ adjs = ["tiny", "fat", "shiny", "electric", "fluffy", "bright",
 plural_nouns = ["apples", "oranges", "kiwis", "clementines"
                 "wildebeasts", "mammoths", "rabbits", "sloth", "crashes"
                 "spices", "herbs", "eggs", "pony tails", "bears" 
-                "unicorns", "Kermit", "Sighs", "indians", "cowboys]
+                "unicorns", "Kermit", "Sighs", "indians", "cowboys"]
             
 def title():
 	''' This function chooses a random title for the name '''
@@ -30,7 +30,7 @@ def plural_noun():
 	
 def main():
 	while True:
-		name = raw_imput("Enter your name: ")
+		name = raw_input("Enter your name: ")
 		if name == "q"
 			break
 		random.seed(name)
